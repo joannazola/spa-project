@@ -1,5 +1,5 @@
 export function Hero() {
-  const heroComponent = document.createElement("hero");
+  const heroComponent = document.createElement("section");
   heroComponent.classList.add("hero", "hero-component");
 
   heroComponent.innerHTML = `

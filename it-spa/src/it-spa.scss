@@ -10,6 +10,7 @@ $color-dark-dark-blue: #102331;
 $color-pink-sunset: #ac8e98;
 $color-light-pink: #ebe0e4;
 $color-gray-dark: #777;
+$color-gray-light: #d0d0d0;
 $color-white: #fff;
 $color-black: #000000;
 
@@ -60,6 +61,10 @@ body {
   background-color: $color-dark-dark-blue;
   position: relative;
 
+  &__small {
+    height: 500px;
+  }
+
   .menu-component__border {
     font-family: "Lato", sans-serif;
     position: absolute;
@@ -70,6 +75,11 @@ body {
     transform: translate(-50%, -50%);
     border: $color-light-pink solid 2px;
 
+    &__small {
+      border: none;
+      height: 400px;
+    }
+
     .menu-component__text {
       font-family: "Playfair Display", serif;
       font-size: 48px;
@@ -77,9 +87,13 @@ body {
       color: $color-light-blue-1;
       text-align: center;
       margin: 48px;
+
+      &__small {
+        margin: 24px;
+      }
     }
     .menu-component__description {
-      font-family: "Playfair Display", serif;
+      font-family: "Lato", sans-serif;
       font-size: 20px;
       font-weight: 300;
       color: $color-light-blue-1;
@@ -87,6 +101,53 @@ body {
       line-height: 48px;
       margin: 48px;
       padding-top: 24px;
+
+      &__small {
+        margin: 24px;
+      }
     }
   }
+}
+
+.navigation-component {
+  display: flex;
+  gap: 28px;
+  margin: 10px 36px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.button {
+  &:hover,
+  :active {
+    font-weight: 700;
+  }
+}
+
+.room {
+  display: flex;
+  gap: 24px;
+  margin: 52px 36px 52px 36px;
+  padding: 24px;
+  border-bottom: #1a374d solid 0.5px;
+}
+
+.people-number,
+.price-box,
+.area-box {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.price-img,
+.area-img {
+  margin: 12px;
+}
+
+.menu-component__description_M {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  margin-bottom: 12px;
+  font-weight: 400;
 }

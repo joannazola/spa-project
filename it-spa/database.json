@@ -7,7 +7,8 @@
       "beds": 1,
       "guests": 1,
       "price": 170,
-      "area": 16
+      "area": 16,
+      "image": "https://www.hotelpodwawelem.pl/wp-content/uploads/2020/11/204855519.jpg"
     },
     {
       "id": 2,
@@ -15,7 +16,8 @@
       "beds": 1,
       "guests": 2,
       "price": 240,
-      "area": 24
+      "area": 24,
+      "image": "https://www.navigatorhotel.pl/sites/default/files/rooms/pokoj%20standard%20B%201_1.jpg"
     },
     {
       "id": 3,
@@ -23,7 +25,8 @@
       "beds": 2,
       "guests": 3,
       "price": 290,
-      "area": 32
+      "area": 32,
+      "image": "https://www.ahstatic.com/photos/a358_rosne_00_p_1024x768.jpg"
     },
     {
       "id": 4,
@@ -31,15 +34,17 @@
       "beds": 2,
       "guests": 4,
       "price": 340,
-      "area": 40
+      "area": 40,
+      "image": "https://www.alejahandlowa.pl/wp-content/uploads/Hotelowe-pokoje-typu-studio.jpg"
     },
     {
       "id": 5,
-      "name": "Apartament dla dwojga z widokiem na ogród",
-      "beds": 2,
-      "guests": 4,
+      "name": "Apartament dla dwojga z widokiem na morze",
+      "beds": 1,
+      "guests": 2,
       "price": 540,
-      "area": 44
+      "area": 44,
+      "image": "https://nadmorskiluksus.pl/wp-content/uploads/2015/03/Sesja-ustronie-morskie-apartament-10145-HDR.jpg"
     },
     {
       "id": 6,
@@ -47,7 +52,8 @@
       "beds": 2,
       "guests": 4,
       "price": 720,
-      "area": 60
+      "area": 60,
+      "image": "https://i0.wp.com/world-in2-words.com/wp-content/uploads/2022/02/295638717.jpeg?fit=1024%2C683&ssl=1"
     }
   ],
   "treatments": [
