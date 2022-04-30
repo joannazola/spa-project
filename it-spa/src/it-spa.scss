@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+$color-primary: #6998ab;
+$color-secondary: #406882;
+$color-light-blue: #b1d0e0;
+$color-light-blue-1: #e6eaec;
+$color-dark-blue: #1a374d;
+$color-dark-dark-blue: #102331;
+$color-pink-sunset: #ac8e98;
+$color-light-pink: #ebe0e4;
+$color-gray-dark: #777;
+$color-white: #fff;
+$color-black: #000000;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+
+.hero-component__image {
+  height: 80vh;
+  background: linear-gradient(
+      to right bottom,
+      rgba($color-dark-blue, 0.4),
+      rgba($color-pink-sunset, 0.1)
+    ),
+    url("./views/assets/img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-component__container {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  .hero-component__text {
+    font-size: 72px;
+    font-weight: 500;
+    color: $color-light-blue-1;
+  }
+  .hero-component__description {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -16px;
+    color: $color-light-blue-1;
+  }
+}
+
+.menu-component__container {
+  height: 900px;
+  background-color: $color-dark-dark-blue;
+  position: relative;
+
+  .menu-component__border {
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    height: 600px;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: $color-light-pink solid 2px;
+
+    .menu-component__text {
+      font-family: "Playfair Display", serif;
+      font-size: 48px;
+      font-weight: 500;
+      color: $color-light-blue-1;
+      text-align: center;
+      margin: 48px;
+    }
+    .menu-component__description {
+      font-family: "Playfair Display", serif;
+      font-size: 20px;
+      font-weight: 300;
+      color: $color-light-blue-1;
+      text-align: center;
+      line-height: 48px;
+      margin: 48px;
+      padding-top: 24px;
+    }
+  }
+}
