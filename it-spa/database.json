@@ -1,0 +1,135 @@
+{
+  "users": [],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Pokój jednoosobowy",
+      "beds": 1,
+      "guests": 1,
+      "price": 170,
+      "area": 16
+    },
+    {
+      "id": 2,
+      "name": "Pokój dwuosobowy",
+      "beds": 1,
+      "guests": 2,
+      "price": 240,
+      "area": 24
+    },
+    {
+      "id": 3,
+      "name": "Pokój rodzinny",
+      "beds": 2,
+      "guests": 3,
+      "price": 290,
+      "area": 32
+    },
+    {
+      "id": 4,
+      "name": "Pokój rodzinny typu studio",
+      "beds": 2,
+      "guests": 4,
+      "price": 340,
+      "area": 40
+    },
+    {
+      "id": 5,
+      "name": "Apartament dla dwojga z widokiem na ogród",
+      "beds": 2,
+      "guests": 4,
+      "price": 540,
+      "area": 44
+    },
+    {
+      "id": 6,
+      "name": "Apartament grafitowy",
+      "beds": 2,
+      "guests": 4,
+      "price": 720,
+      "area": 60
+    }
+  ],
+  "treatments": [
+    {
+      "id": 1,
+      "name": "Detox i wygładzenie",
+      "area": "Aromateriapia",
+      "time": 90,
+      "price": 80,
+      "description": "Idealna pielęgnacja orzeźwiająca dla osób potrzebujących zastrzyku energii lub podczas diety oczyszczającej. W czasie zabiegu wykonywany jest masaż ujędrniający na pobudzającym oleju, będącym mieszanką olejków esencjonalnych  z grejpfruta, rozmarynu i jałowca, który odżywia ciało, pozostawiając skórę gładką i jedwabistą."
+    },
+    {
+      "id": 2,
+      "name": "Rytuał Leśna terapia",
+      "area": "Aromateriapia",
+      "time": 60,
+      "price": 70,
+      "description": "Niezwykle odprężający i uwalniający od napięcia masaż całego ciała z elementami inhalacji, refleksologii stóp oraz masażu głowy. Wzbogacony o ciepłą maskę błotną na dłonie i stopy oraz zabieg na twarz (peeling, maska, masaż, pielęgnacja końcowa) kompleksowo zadba o całe ciało, a umysł uwolni od stresu współczesnego życia."
+    },
+    {
+      "id": 3,
+      "name": "Rytuał Różana terapia",
+      "area": "Aromaterapia",
+      "time": 60,
+      "price": 70,
+      "description": "Róża, drzewo sandałowe i rumianek pozwalają na głęboki relaks, ukojenie i poprawę snu. Regeneracja organizmu i dobry sen jest bardzo ważny, ponieważ pozwala wypocząć i zregenerować się. Rozpieszczający masaż całego ciała wykorzystujący starannie dobrane ruchy wprowadzają w stan głębokiego relaksu. Esencjonalne serum aplikowane na ciało pozwala wprowadzić nasze ciało i umysł w równowagę natomiast ciepła maska rozluźnia i ułatwia zasypianie."
+    },
+    {
+      "id": 4,
+      "name": "Roślinne nawilżenie",
+      "area": "Pielegnacja ciała",
+      "time": 25,
+      "price": 100,
+      "description": "Intensywnie nawilżająca pielęgnacja, składająca się z naturalnego peelingu ciała,  serum oraz maski bogatej w wyciągi z róży damasceńskiej, która pozostawi Twoją skórę promienną i miękką. Podczas działania maski wykonywany jest ajurwedyjski masaż głowy, który rozjaśni i ukoi Twój umysł, a skóra zostanie otulona poprawiającym nastrój zapachem."
+    },
+    {
+      "id": 5,
+      "name": "Cytrusowe orzeźwienie",
+      "area": "Pielęgnacja ciała",
+      "time": 45,
+      "price": 150,
+      "description": "Idealny zabieg, kiedy czujesz spadek formy. Orzeźwiająca  pielęgnacja ciała z peelingiem solnym z zieloną kawą oraz trzyskładnikową maską sprawi, że Twoja skóra zyska jedwabistą gładkość i odżywienie. Wykonany podczas zabiegu masaż głowy pozwoli na błogi relaks i ukojenie zmysłów."
+    },
+    {
+      "id": 6,
+      "name": "Ekstremalne wygładzenie",
+      "area": "Pielęgnacja ciała",
+      "time": 60,
+      "price": 200,
+      "description": "Naturalny peeling całego ciała na bazie odżywczych produktów pozostawi Twoją skórę promienną i cudownie gładką w dotyku. To niezwykle głęboka odnowa i regeneracja Twojego ciała, która poprawi nie tylko Twój wygląd, ale także samopoczucie."
+    },
+    {
+      "id": 7,
+      "name": "Kolagen i odbudowa",
+      "area": "Pielęgnacja twarzy",
+      "time": 45,
+      "price": 120,
+      "description": "Intensywna, nieinwazyjna pielęgnacja, likwidująca oznaki starzenia się i przywracająca skórze jędrność. Odbudowuje i wzmacnia jej strukturę, dzięki wypełniającemu kompleksowi lipopeptydów."
+    },
+    {
+      "id": 8,
+      "name": "Ukojenie i ochrona",
+      "area": "Pielęgnacja twarzy",
+      "time": 45,
+      "price": 120,
+      "description": "Dawka intensywnej regeneracji i pobudzenia skóry do odnowy.  Specjalne połączenie wyciągów roślinnych skutecznie intensyfikuje odnowę komórek. Zabieg przyspiesza gojenie i regenerację skóry, zapobiegając powstawaniu blizn.."
+    },
+    {
+      "id": 9,
+      "name": "Argan i multiwitamina",
+      "area": "Pielęgnacja twarzy",
+      "time": 45,
+      "price": 120,
+      "description": "Odżywczy koktajl dla Twojej skóry, bogaty w olej arganowy oraz witaminy A i E, prowitaminy B5 oraz biotyny. Przywraca skórze jednolity koloryt i blask. Dzięki temu Twoja cera zyska zdrowy i młody wygląd."
+    },
+    {
+      "id": 10,
+      "name": "Natura i równowaga",
+      "area": "Pielęgnacja twarzy",
+      "time": 45,
+      "price": 120,
+      "description": "Linia wegańska oparta na działaniu pre i probiotyków. Idealna dla skóry, która narażona jest na działanie stresu i szkodliwy wpływ środowiska. Odzyskaj naturalną równowagę bariery ochronnej Twojej skóry."
+    }
+  ]
+}
