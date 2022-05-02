@@ -16,7 +16,7 @@ const navItems = [
   { text: "Strona główna", component: MainMenu },
   { text: "Pokoje", component: Rooms },
   { text: "SPA&Wellness", component: Spa },
-  { text: "Rezerwacja", component: Cart },
+  { text: "Rezerwacje", component: Cart },
 ];
 
 export function Navigation() {

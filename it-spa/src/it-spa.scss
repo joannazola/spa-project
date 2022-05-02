@@ -44,7 +44,7 @@ body {
   text-align: center;
 
   .hero-component__text {
-    font-size: 72px;
+    font-size: 100px;
     font-weight: 500;
     color: $color-light-blue-1;
   }
@@ -64,6 +64,10 @@ body {
   &__small {
     height: 500px;
   }
+  &__very-small {
+    height: 250px;
+    margin-bottom: 64px;
+  }
 
   .menu-component__border {
     font-family: "Lato", sans-serif;
@@ -79,6 +83,10 @@ body {
       border: none;
       height: 400px;
     }
+    &__very-small {
+      border: none;
+      height: 150px;
+    }
 
     .menu-component__text {
       font-family: "Playfair Display", serif;
@@ -90,6 +98,9 @@ body {
 
       &__small {
         margin: 24px;
+      }
+      &__very-small {
+        margin: 0;
       }
     }
     .menu-component__description {
@@ -105,6 +116,9 @@ body {
       &__small {
         margin: 24px;
       }
+      &__very-small {
+        margin-top: 0;
+      }
     }
   }
 }
@@ -113,14 +127,32 @@ body {
   display: flex;
   gap: 28px;
   margin: 10px 36px;
-  font-size: 20px;
-  font-family: "Lato", sans-serif;
+  font-size: 16px;
 }
 
 .button {
   &:hover,
   :active {
     font-weight: 700;
+  }
+}
+
+.button-add {
+  display: block;
+  width: 250px;
+  height: 50px;
+  align-self: flex-end;
+  margin-bottom: 36px;
+  background-color: $color-dark-blue;
+  border: none;
+  color: $color-white;
+  &:hover,
+  :active {
+    background-color: $color-light-blue-1;
+    color: $color-dark-blue;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 8px 32px 53px -14px rgba(66, 68, 90, 1);
   }
 }
 
@@ -139,6 +171,9 @@ body {
   gap: 16px;
   align-items: center;
 }
+.area-box {
+  margin-bottom: 16px;
+}
 
 .price-img,
 .area-img {
@@ -149,5 +184,60 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 24px;
   margin-bottom: 12px;
+  font-weight: 400;
+  width: 550px;
+}
+
+.treatment-description {
+  margin-bottom: 16px;
+}
+
+#userdatea,
+#userdated {
+  width: 200px;
+  text-align: center;
+  margin: 2px;
+}
+
+.departure-date,
+.arrival-date {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.cart-object {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 0.5px solid $color-dark-blue;
+  width: 180px;
+  &:last-child {
+    border: none;
+  }
+}
+.value-and-descritpion {
+  display: flex;
+  height: 140px;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 36px;
+  padding-bottom: 16px;
+  border-bottom: 0.5px solid $color-dark-blue;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cart-hotel {
+  text-align: center;
+  margin: 48px 0;
+  font-size: 24px;
   font-weight: 400;
 }

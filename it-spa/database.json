@@ -63,7 +63,8 @@
       "area": "Aromateriapia",
       "time": 90,
       "price": 80,
-      "description": "Idealna pielęgnacja orzeźwiająca dla osób potrzebujących zastrzyku energii lub podczas diety oczyszczającej. W czasie zabiegu wykonywany jest masaż ujędrniający na pobudzającym oleju, będącym mieszanką olejków esencjonalnych  z grejpfruta, rozmarynu i jałowca, który odżywia ciało, pozostawiając skórę gładką i jedwabistą."
+      "description": "Idealna pielęgnacja orzeźwiająca dla osób potrzebujących zastrzyku energii lub podczas diety oczyszczającej. W czasie zabiegu wykonywany jest masaż ujędrniający na pobudzającym oleju, będącym mieszanką olejków esencjonalnych  z grejpfruta, rozmarynu i jałowca, który odżywia ciało, pozostawiając skórę gładką i jedwabistą.",
+      "image": "https://www.macmillandictionaryblog.com/wp-content/uploads/2018/07/aromatherapy-810x540.jpg"
     },
     {
       "id": 2,
@@ -71,7 +72,8 @@
       "area": "Aromateriapia",
       "time": 60,
       "price": 70,
-      "description": "Niezwykle odprężający i uwalniający od napięcia masaż całego ciała z elementami inhalacji, refleksologii stóp oraz masażu głowy. Wzbogacony o ciepłą maskę błotną na dłonie i stopy oraz zabieg na twarz (peeling, maska, masaż, pielęgnacja końcowa) kompleksowo zadba o całe ciało, a umysł uwolni od stresu współczesnego życia."
+      "description": "Niezwykle odprężający i uwalniający od napięcia masaż całego ciała z elementami inhalacji, refleksologii stóp oraz masażu głowy. Wzbogacony o ciepłą maskę błotną na dłonie i stopy oraz zabieg na twarz (peeling, maska, masaż, pielęgnacja końcowa) kompleksowo zadba o całe ciało, a umysł uwolni od stresu współczesnego życia.",
+      "image": "https://3.bp.blogspot.com/-9IAcgx2sJ04/W9w0xeQ9K2I/AAAAAAAASHE/rxlXn1NaTIU9RUDujxejyNqMV5k0h8zCACLcBGAs/s1600/ilustra.jpg"
     },
     {
       "id": 3,
@@ -79,7 +81,8 @@
       "area": "Aromaterapia",
       "time": 60,
       "price": 70,
-      "description": "Róża, drzewo sandałowe i rumianek pozwalają na głęboki relaks, ukojenie i poprawę snu. Regeneracja organizmu i dobry sen jest bardzo ważny, ponieważ pozwala wypocząć i zregenerować się. Rozpieszczający masaż całego ciała wykorzystujący starannie dobrane ruchy wprowadzają w stan głębokiego relaksu. Esencjonalne serum aplikowane na ciało pozwala wprowadzić nasze ciało i umysł w równowagę natomiast ciepła maska rozluźnia i ułatwia zasypianie."
+      "description": "Róża, drzewo sandałowe i rumianek pozwalają na głęboki relaks, ukojenie i poprawę snu. Regeneracja organizmu i dobry sen jest bardzo ważny, ponieważ pozwala wypocząć i zregenerować się. Rozpieszczający masaż całego ciała wykorzystujący starannie dobrane ruchy wprowadzają w stan głębokiego relaksu. Esencjonalne serum aplikowane na ciało pozwala wprowadzić nasze ciało i umysł w równowagę natomiast ciepła maska rozluźnia i ułatwia zasypianie.",
+      "image": "https://www.organicfacts.net/wp-content/uploads/roseessentialoil-1.jpg"
     },
     {
       "id": 4,
@@ -87,7 +90,8 @@
       "area": "Pielegnacja ciała",
       "time": 25,
       "price": 100,
-      "description": "Intensywnie nawilżająca pielęgnacja, składająca się z naturalnego peelingu ciała,  serum oraz maski bogatej w wyciągi z róży damasceńskiej, która pozostawi Twoją skórę promienną i miękką. Podczas działania maski wykonywany jest ajurwedyjski masaż głowy, który rozjaśni i ukoi Twój umysł, a skóra zostanie otulona poprawiającym nastrój zapachem."
+      "description": "Intensywnie nawilżająca pielęgnacja, składająca się z naturalnego peelingu ciała,  serum oraz maski bogatej w wyciągi z róży damasceńskiej, która pozostawi Twoją skórę promienną i miękką. Podczas działania maski wykonywany jest ajurwedyjski masaż głowy, który rozjaśni i ukoi Twój umysł, a skóra zostanie otulona poprawiającym nastrój zapachem.",
+      "image": "https://pearl.lublin.pl/wp-content/uploads/2018/09/soczysta-pokusa-zabieg-2-e1544298081953.jpg"
     },
     {
       "id": 5,
@@ -95,7 +99,8 @@
       "area": "Pielęgnacja ciała",
       "time": 45,
       "price": 150,
-      "description": "Idealny zabieg, kiedy czujesz spadek formy. Orzeźwiająca  pielęgnacja ciała z peelingiem solnym z zieloną kawą oraz trzyskładnikową maską sprawi, że Twoja skóra zyska jedwabistą gładkość i odżywienie. Wykonany podczas zabiegu masaż głowy pozwoli na błogi relaks i ukojenie zmysłów."
+      "description": "Idealny zabieg, kiedy czujesz spadek formy. Orzeźwiająca  pielęgnacja ciała z peelingiem solnym z zieloną kawą oraz trzyskładnikową maską sprawi, że Twoja skóra zyska jedwabistą gładkość i odżywienie. Wykonany podczas zabiegu masaż głowy pozwoli na błogi relaks i ukojenie zmysłów.",
+      "image": "https://img.freepik.com/darmowe-zdjecie/urocza-modelka-ma-swieza-zdrowa-skore-zadbane-cialo-zakrywa-oko-plasterkiem-pomaranczy_95891-3889.jpg"
     },
     {
       "id": 6,
@@ -103,7 +108,8 @@
       "area": "Pielęgnacja ciała",
       "time": 60,
       "price": 200,
-      "description": "Naturalny peeling całego ciała na bazie odżywczych produktów pozostawi Twoją skórę promienną i cudownie gładką w dotyku. To niezwykle głęboka odnowa i regeneracja Twojego ciała, która poprawi nie tylko Twój wygląd, ale także samopoczucie."
+      "description": "Naturalny peeling całego ciała na bazie odżywczych produktów pozostawi Twoją skórę promienną i cudownie gładką w dotyku. To niezwykle głęboka odnowa i regeneracja Twojego ciała, która poprawi nie tylko Twój wygląd, ale także samopoczucie.",
+      "image": "https://ecobeautysalon.pl/images/body1.jpg"
     },
     {
       "id": 7,
@@ -111,7 +117,8 @@
       "area": "Pielęgnacja twarzy",
       "time": 45,
       "price": 120,
-      "description": "Intensywna, nieinwazyjna pielęgnacja, likwidująca oznaki starzenia się i przywracająca skórze jędrność. Odbudowuje i wzmacnia jej strukturę, dzięki wypełniającemu kompleksowi lipopeptydów."
+      "description": "Intensywna, nieinwazyjna pielęgnacja, likwidująca oznaki starzenia się i przywracająca skórze jędrność. Odbudowuje i wzmacnia jej strukturę, dzięki wypełniającemu kompleksowi lipopeptydów.",
+      "image": "https://medicor.krakow.pl/wp-content/uploads/2021/01/Jakie-zabiegi-na-twarz-po-35-roku-zycia.jpg"
     },
     {
       "id": 8,
@@ -119,7 +126,8 @@
       "area": "Pielęgnacja twarzy",
       "time": 45,
       "price": 120,
-      "description": "Dawka intensywnej regeneracji i pobudzenia skóry do odnowy.  Specjalne połączenie wyciągów roślinnych skutecznie intensyfikuje odnowę komórek. Zabieg przyspiesza gojenie i regenerację skóry, zapobiegając powstawaniu blizn.."
+      "description": "Dawka intensywnej regeneracji i pobudzenia skóry do odnowy.  Specjalne połączenie wyciągów roślinnych skutecznie intensyfikuje odnowę komórek. Zabieg przyspiesza gojenie i regenerację skóry, zapobiegając powstawaniu blizn..",
+      "image": "https://prezentmarzen.com/82249-large_default/pielegnacja-twarzy-dla-kobiety-w-ciazy-lub-mlodej-mamy-radom.jpg"
     },
     {
       "id": 9,
@@ -127,7 +135,8 @@
       "area": "Pielęgnacja twarzy",
       "time": 45,
       "price": 120,
-      "description": "Odżywczy koktajl dla Twojej skóry, bogaty w olej arganowy oraz witaminy A i E, prowitaminy B5 oraz biotyny. Przywraca skórze jednolity koloryt i blask. Dzięki temu Twoja cera zyska zdrowy i młody wygląd."
+      "description": "Odżywczy koktajl dla Twojej skóry, bogaty w olej arganowy oraz witaminy A i E, prowitaminy B5 oraz biotyny. Przywraca skórze jednolity koloryt i blask. Dzięki temu Twoja cera zyska zdrowy i młody wygląd.",
+      "image": "https://ohme.pl/portal/wp-content/uploads/2021/05/iStock-155759270-e1621513603891-760x427.jpg"
     },
     {
       "id": 10,
@@ -135,7 +144,8 @@
       "area": "Pielęgnacja twarzy",
       "time": 45,
       "price": 120,
-      "description": "Linia wegańska oparta na działaniu pre i probiotyków. Idealna dla skóry, która narażona jest na działanie stresu i szkodliwy wpływ środowiska. Odzyskaj naturalną równowagę bariery ochronnej Twojej skóry."
+      "description": "Linia wegańska oparta na działaniu pre i probiotyków. Idealna dla skóry, która narażona jest na działanie stresu i szkodliwy wpływ środowiska. Odzyskaj naturalną równowagę bariery ochronnej Twojej skóry.",
+      "image": "https://www.farmaurody.com.pl/wp-content/uploads/2020/04/Zabieg-1-1080x675.jpg"
     }
   ]
 }
