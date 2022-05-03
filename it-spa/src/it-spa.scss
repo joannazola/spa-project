@@ -156,6 +156,46 @@ body {
   }
 }
 
+.button-login {
+  display: block;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  padding-top: 16px;
+  margin-bottom: 36px;
+  margin-top: 36px;
+  color: $color-dark-blue;
+  border: none;
+  background-color: $color-white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.button-remove {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 380px;
+  text-align: center;
+  padding-top: 16px;
+  height: 50px;
+  align-self: flex-end;
+  margin-bottom: 36px;
+  background-color: $color-dark-blue;
+  border: none;
+  color: $color-white;
+  &:hover,
+  :active {
+    background-color: $color-light-blue-1;
+    color: $color-dark-blue;
+    font-size: 18px;
+    transform: translateX(-50%);
+    font-weight: bold;
+    box-shadow: 8px 32px 53px -14px rgba(66, 68, 90, 1);
+  }
+}
+
 .room {
   display: flex;
   gap: 24px;
@@ -240,4 +280,58 @@ body {
   margin: 48px 0;
   font-size: 24px;
   font-weight: 400;
+}
+
+.login-container {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 64px;
+  border-radius: 16px;
+  background-color: $color-dark-blue;
+  position: relative;
+}
+.login-info {
+  position: absolute;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  left: 50%;
+  top: 6%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: $color-light-blue-1;
+}
+.login-picture {
+  position: absolute;
+  height: 180px;
+  width: 180px;
+  background-color: #ac8e98;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%);
+  background: url("./views/assets/img/human.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.login-description {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: $color-light-blue-1;
+}
+
+.login-description-log {
+  position: absolute;
+  margin-top: 24px;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: $color-light-blue-1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }

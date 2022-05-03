@@ -3,6 +3,7 @@ import { Rooms } from "../views/Rooms";
 import { Spa } from "../views/Spa";
 import { Cart } from "../cart/Cart";
 import { Button } from "../common/Button";
+import { Login } from "../views/Login";
 
 const navigateTo = (component) => {
   const navigateEvent = new CustomEvent("navigate", {
@@ -17,6 +18,7 @@ const navItems = [
   { text: "Pokoje", component: Rooms },
   { text: "SPA&Wellness", component: Spa },
   { text: "Rezerwacje", component: Cart },
+  { text: "Logowanie", component: Login },
 ];
 
 export function Navigation() {

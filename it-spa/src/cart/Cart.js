@@ -1,5 +1,8 @@
+import { ButtonRemove } from "../common/ButtonRmv";
+
 export function Cart() {
   const cart = document.createElement("section");
+
   cart.innerHTML = `
   <div class="menu-component__container menu-component__container__very-small">
   <div class="menu-component__border menu-component__border__very-small">
@@ -39,7 +42,7 @@ export function Cart() {
               Cena/dzień:
             </div>
             <div class = "value">   
-              ${data.room.price}
+              ${data.room.price.toFixed(2)} PLN
             </div>        
           </div>
           <div class = "cart-object">
@@ -71,7 +74,7 @@ export function Cart() {
       Cena/całość:
     </div>
     <div class = "value">   
-      ${data.room.price * data.daysNumber.days}
+      ${(data.room.price * data.daysNumber.days).toFixed(2)} PLN
     </div>        
   </div>
         </div> 
@@ -109,7 +112,7 @@ export function Cart() {
           Cena:
         </div>
         <div class = "value">   
-          ${data.treat.price}
+          ${data.treat.price.toFixed(2)} PLN
         </div>        
       </div>
       </div> 
@@ -117,9 +120,21 @@ export function Cart() {
     `;
       return cartSPA;
     });
+
     cart.append(cartSpa);
     cart.append(...cartListSPA);
   }
+
+  const Button = ButtonRemove({
+    text: "Wyczyść koszyk ze wszystkich rezerwacji",
+    callback: () => {
+      localStorage.removeItem("HOTEL_CART");
+      localStorage.removeItem("SPA_CART");
+      window.location.reload();
+    },
+  });
+
+  cart.append(Button);
 
   return cart;
 }

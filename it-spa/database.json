@@ -1,5 +1,10 @@
 {
-  "users": [],
+  "users": [
+    {
+      "username": "admin",
+      "password": "chlebimasło"
+    }
+  ],
   "rooms": [
     {
       "id": 1,
