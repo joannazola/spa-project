@@ -4,6 +4,7 @@ import { Spa } from "../views/Spa";
 import { Cart } from "../cart/Cart";
 import { Button } from "../common/Button";
 import { Login } from "../views/Login";
+import { Registration } from "../views/Registration";
 
 const navigateTo = (component) => {
   const navigateEvent = new CustomEvent("navigate", {
@@ -19,6 +20,7 @@ const navItems = [
   { text: "SPA&Wellness", component: Spa },
   { text: "Rezerwacje", component: Cart },
   { text: "Logowanie", component: Login },
+  { text: "Rejestracja", component: Registration },
 ];
 
 export function Navigation() {

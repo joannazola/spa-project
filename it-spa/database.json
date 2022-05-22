@@ -1,9 +1,8 @@
 {
   "users": [
-    {
-      "username": "admin",
-      "password": "chlebimasło"
-    }
+    { "username": "admin", "password": "chlebimasło" },
+    { "username": "adninnj", "password": "3mmklsdr" },
+    { "username": "ncvnvjfjf", "password": "lskldkkd" }
   ],
   "rooms": [
     {

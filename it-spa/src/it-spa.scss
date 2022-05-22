@@ -171,6 +171,22 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.button-registration {
+  display: block;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  padding-top: 16px;
+  margin-bottom: 36px;
+  margin-top: 36px;
+  color: $color-dark-blue;
+  border: none;
+  background-color: $color-white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .button-remove {
   display: block;
   position: absolute;
@@ -293,6 +309,7 @@ body {
 }
 .login-info {
   position: absolute;
+  text-align: center;
   margin-top: 24px;
   margin-bottom: 24px;
   left: 50%;
@@ -327,7 +344,7 @@ body {
   position: absolute;
   margin-top: 24px;
   left: 50%;
-  top: 25%;
+  top: 35%;
   transform: translateX(-50%);
   font-size: 24px;
   color: $color-light-blue-1;

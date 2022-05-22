@@ -17,7 +17,6 @@ export function Rooms() {
 
   `;
 
-  // pobieramy pokoje z json-server
   fetch("http://localhost:3000/rooms")
     .then((response) => response.json())
     .then((data) => {

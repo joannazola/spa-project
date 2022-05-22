@@ -43,7 +43,7 @@ export function Login() {
           res.data[0].password == document.getElementById("password").value
         ) {
           localStorage.setItem("pass", "ok");
-          window.location.reload();
+          console.log(res.data[0]);
         }
       }
       response();
