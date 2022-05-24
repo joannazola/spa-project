@@ -31,15 +31,20 @@ export function Registration() {
       fetch("http://localhost:3000/users")
         .then((response) => response.json())
         .then((data) => {
+          let table = [];
           console.log(data);
           data.map((users) => {
             if (message.username === users.username) {
-              alert("Nazwa użytkownika jest juz zajęta!");
-              socket.emit("message", "error");
-            } else if (message.username != users.username) {
-              socket.emit("read", message);
+              table.push("1");
             }
           });
+          if (table.length !== 0) {
+            alert("Nazwa użytkownika jest już zajęta!");
+            console.log(table.length);
+          } else if (table.length === 0) {
+            alert("Pomyślenie zarejestrowano!");
+            socket.emit("read", message);
+          }
         });
     },
   });

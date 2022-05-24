@@ -7,9 +7,9 @@ export function Login() {
   if (localStorage.getItem("pass") == "ok") {
     login.innerHTML = `
     <div class= "login-container">
-    <div class ="login-info">Jesteś zalogowany jako</div>
+    <div class ="login-info">Jesteś zalogowany</div>
     <div class = "login-picture">&nbsp</div>
-    <div class = "login-description">Admin</div>
+    <div class = "login-description"></div>
     <div></div>
     </div>
 
@@ -36,17 +36,27 @@ export function Login() {
         document.getElementById("password").value
       );
 
-      async function response() {
-        const res = await axios("http://localhost:3000/users");
-        if (
-          res.data[0].username == document.getElementById("userName").value &&
-          res.data[0].password == document.getElementById("password").value
-        ) {
-          localStorage.setItem("pass", "ok");
-          console.log(res.data[0]);
-        }
-      }
-      response();
+      fetch("http://localhost:3000/users")
+        .then((response) => response.json())
+        .then((data) => {
+          let table = [];
+          console.log(data);
+          data.map((users) => {
+            if (
+              document.getElementById("userName").value === users.username &&
+              document.getElementById("password").value === users.password
+            ) {
+              table.push("1");
+            }
+          });
+          if (table.length === 0) {
+            alert("Nieprawidłowe dane logowania");
+          } else if (table.length == 1) {
+            alert("Pomyślenie zalogowano!");
+            localStorage.setItem("pass", "ok");
+            window.location.reload();
+          }
+        });
     },
   });
 
@@ -54,6 +64,7 @@ export function Login() {
     text: "Wyloguj",
     callback: () => {
       localStorage.removeItem("pass");
+      alert("Pomyślenie wylogowano!");
       window.location.reload();
     },
   });

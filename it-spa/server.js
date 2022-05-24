@@ -29,7 +29,19 @@ io.on("connection", (socket) => {
       if (err) {
         console.log(err);
       } else {
+        // fetch("http://localhost:3000/users")
+        //   .then((response) => response.json())
+        //   .then((dataResponse) => {
+        //     let table = [];
+        //     console.log(dataResponse);
+        //     dataResponse.map((users) => {
+        //       if (message.username === users.username) {
+        //         table.push("1");
+        //       }
+        //     });
+        //   });
         obj = JSON.parse(data);
+
         obj.users.push({
           username: message.username,
           password: message.password,
